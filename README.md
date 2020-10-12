@@ -1,5 +1,5 @@
 # PyOntoQuery
-Retrieves information from an ontology tree.
+A Python command line utility that retrieves information from an ontology tree (.obo) file.
 
 ## Dependencies (Python packages)
 [obonet](https://github.com/dhimmel/obonet)  —  Read OBO-formatted ontologies in Python.  
@@ -15,6 +15,8 @@ The necessary packages and libraries are given in `environment.yml`. They may be
 Or to add the dependencies to a different conda environment:
 
 `$ conda install -c biobuilds obonet`
+
+(This line will install obonet and all of its dependencies, which will then be everything you need.)
 
 ### Without conda
 
