@@ -1,0 +1,5 @@
+EFO:0000384
+Crohn's Disease
+endometriosis
+celiac disease
+alopecia
