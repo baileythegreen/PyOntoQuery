@@ -8,11 +8,32 @@ A Python command line utility that retrieves information from an ontology tree (
 ## Setting up environment
 
 ### With conda
+
+#### Setting up the environment
 The necessary packages and libraries are given in `environment.yml`. They may be installed with the conda package manager by running:
 
 `$ conda env create --prefix ontology --file environment.yml`
 
-Or to add the dependencies to a different conda environment:
+creates an 'ontology' environment in the current directory, or
+
+`$ conda env create --prefix /path/to/another/location/ontology --file environment.yml`
+
+creates the environment in another location.
+
+#### Activating the environment
+You can activate this environment with:
+
+`$ conda activate ./ontology`
+
+if the environment is in your current directory, or
+
+`$ conda activate <path to where ever you created it>/ontology`
+
+if it is not.
+
+
+#### Adding PyOntoQuery to an existing conda environment
+Or to add the dependencies to a different (already extant) conda environment:
 
 `$ conda install -c biobuilds obonet`
 
