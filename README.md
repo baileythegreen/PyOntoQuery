@@ -1,6 +1,16 @@
 # PyOntoQuery
 A Python command line utility that retrieves information from an ontology tree (.obo) file.
 
+#### **Note: if you are installing this on Eddie (the University of Edinburgh's cluster) it seems you will need to follow the 'Without conda' instructions for now**
+
+## Downloading this git repository
+
+You can download the contents of this `git` repository by running:
+
+`git clone https://github.com/baileythegreen/PyOntoQuery.git`
+
+This assumes you have `git` installed. Or, you can click on the **Code** button in the top right-ish part of this page, next to the **About** section and choose **Download ZIP**, which does not.
+
 ## Dependencies (Python packages)
 [obonet](https://github.com/dhimmel/obonet)  —  Read OBO-formatted ontologies in Python.  
 [networkx](https://networkx.github.io/)  —  NetworkX is a dependency of obonet.
