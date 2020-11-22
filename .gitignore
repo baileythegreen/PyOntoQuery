@@ -6,3 +6,4 @@ bin/*
 conda-meta/*
 ssl/*
 lib/*
+*.ipynb
