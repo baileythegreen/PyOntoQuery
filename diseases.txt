@@ -1,5 +1,3 @@
-EFO:0000384
-Crohn's Disease
-endometriosis
-celiac disease
-alopecia
+EFO:0007878
+alcohol consumption measurement
+interleukin-6 measurement

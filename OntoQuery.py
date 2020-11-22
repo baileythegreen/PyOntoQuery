@@ -27,7 +27,7 @@ def read_entries_list(file):
     entries = []
     with open(file) as f:
         for line in f:
-            entries.append(line.lower().strip().replace("'", ""))
+            entries.append(line.strip())
     #print(lineno(), 'entries:', entries)
     return entries
 
@@ -232,8 +232,8 @@ def main():
     globals().update({'duplicates' : opts.duplicates})
     globals().update({'out_file' : opts.out_file})
     globals().update({'work_dir' : opts.work_dir})
-    globals().update({'id_to_name' : {id_: data.get('name').lower().replace("'", "") for id_, data in graph.nodes(data=True) if 'name' in data}})
-    globals().update({'name_to_id' : {data['name'].lower().replace("'", ""): id_ for id_, data in graph.nodes(data=True) if 'name' in data}})
+    globals().update({'id_to_name' : {id_: data.get('name') for id_, data in graph.nodes(data=True) if 'name' in data}})
+    globals().update({'name_to_id' : {data['name']: id_ for id_, data in graph.nodes(data=True) if 'name' in data}})
     #################################
     #write_out(entries)
     logfile.log_header(log_file, opts, args, p, entries)

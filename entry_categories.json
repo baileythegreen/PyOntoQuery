@@ -1,17 +1,6 @@
 {
-    "alopecia": [
-        "integumentary system disease"
-    ],
-    "celiac disease": [
-        "digestive system disease",
-        "immune system disease"
-    ],
-    "crohns disease": [
-        "digestive system disease",
-        "musculoskeletal system disease",
-        "immune system disease"
-    ],
-    "endometriosis": [
-        "disease of genitourinary system"
+    "interleukin-6 measurement": [
+        "inflammatory biomarker measurement",
+        "protein measurement"
     ]
 }
